@@ -11,5 +11,15 @@ brew install deno
 
 ```
 deno run index.ts
-deno run --watch --unstable main.ts
+deno run --watch --unstable index.ts
+
+deno run --allow-net index.ts
+deno run --watch --unstable --allow-net index.ts
+
+```
+
+## Routing
+
+```
+https://decipher.dev/deno-by-example/advanced-routing/
 ```
